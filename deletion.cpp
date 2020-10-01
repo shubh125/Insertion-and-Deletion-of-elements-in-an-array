@@ -14,6 +14,10 @@ int main()
     for(int i=0;i<len;i++)
         cout<<a[i]<<" ";
     //Deletion Using position/value
+    int t;
+    cout<<endl<<"no of elements you want to delete ";
+    cin>>t;
+    for(int i=0;i<t;i++){
     int num,pos,value;
     cout<<"\nDelete element by \n 1. Position \n 2. Value"<<endl;
     cin>>num;
@@ -49,5 +53,6 @@ int main()
                  break;
         default : cout<<"Invalid Input"<<endl;
     }
+ }
 return 0;
 }
